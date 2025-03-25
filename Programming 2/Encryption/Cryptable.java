@@ -1,7 +1,8 @@
-package programming2;
-
+//no package
 public interface Cryptable {
 
-	public String encrypt(String text);
-	public String decrypt(String text);
-}
+		public String encrypt(String text);
+		public String decrypt(String text);
+	}
+
+

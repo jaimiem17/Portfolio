@@ -1,5 +1,3 @@
-package programming2;
-
 import java.util.*;
 
 public class Client_Dictionary {

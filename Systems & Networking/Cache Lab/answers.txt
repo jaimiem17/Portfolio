@@ -1,0 +1,4 @@
+In the copyij function, because we iterate over i first in the outer loop and the inner loop iterates over j allowing for 
+sequential access within the rows which aligns well with cache behavior and spatial locality while on the 
+contrary the copyji function iterates j in the outer loop and i in the inner loop it leads to non-sequential
+access in memory which is less favorable for cache behavior and leads to more cache misses.
