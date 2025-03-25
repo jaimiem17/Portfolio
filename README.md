@@ -18,27 +18,27 @@ Basically, this repo is a **mashup of what I’ve learned, built, and broken** t
 Right now things might be a little scattered, but here’s a rough breakdown:
 ```
 /Programming 2/
-  └── programming_fundamentals/
-  └── data_structures/
-  └── algorithms/
+  └── coursework from course focused on object oriented Java programming
   
 /Programming 3/
+  └── Course following OOP, introduced GUIs and big data
+
+/Systems & Networking/
   └── networking/
   └── security_labs/
 
-/Systems & Networking/
+/Biomedical Signals & Systems/
   └── signal_processing/
   └── matlab_stuff/
 
 /Data Visualization/
-  └── side_projects/
-  └── "what_was_i_thinking"/
+  └── Coursework from DataVis: course covering the principles, methods, and techniques that are fundamental to information visualization
 ```
 
 ## ⚠️ Disclaimer
 
-A lot of this code was written under deadline pressure, fueled by caffeine, and may not reflect best practices. Proceed with curiosity (and a sense of humor).
+A lot of this code was written under deadline pressure, fueled by caffeine, and may not reflect best practices. Proceed with curiosity (and an open mind).
 
 ##💬 Wanna Chat?
 
-If you're curious about any project, want to collaborate, or just feel like nerding out about medical devices or robotics — feel free to reach out!
+If you're curious about any project, want to collaborate, or just feel like nerding out about computer science or medical robotics — feel free to reach out!
