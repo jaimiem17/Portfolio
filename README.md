@@ -39,6 +39,6 @@ Right now things might be a little scattered, but here’s a rough breakdown:
 
 A lot of this code was written under deadline pressure, fueled by caffeine, and may not reflect best practices. Proceed with curiosity (and an open mind).
 
-##💬 Wanna Chat?
+## 💬 Wanna Chat?
 
 If you're curious about any project, want to collaborate, or just feel like nerding out about computer science or medical robotics — feel free to reach out!
