@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Assignment 1</title>
+</head>
+
+<body>
+
+  <h3>CMPS-3360 Assignment 1: Basic Web Visualization</h3>
+  <span>Jaimie Morris</span>
+
+  <br />
+  <hr />
+  <br />
+
+  <br />
+
+
+  <h1>Part 1: Visualization by Hand (HTML & CSS Only)</h1>
+  <div>
+    <h2>1a. Magenta Bar Chart</h2>
+    <svg id="magenta_bar_chart" width="400" height="400">
+      <rect x=0 y=150 height=200 width=50 />
+      <rect x=50 y=0 height=350 width=50 />
+      <rect x=100 y=100 height=250 width=50 />
+      <rect x=150 y=100 height=250 width=50 />
+      <rect x=200 y=250 height=100 width=50 />
+      <rect x=250 y=150 height=200 width=50 />
+      <rect x=300 y=125 height=225 width=50 />
+      <rect x=350 y=200 height=150 width=50 />
+
+    </svg>
+
+
+  </div>
+
+  <div>
+    <h2>Cyan Bar Chart</h2>
+    <svg id="cyan_bar_chart" width="400" height="400">
+      <rect x=0 y=150 height=200 width=50 />
+      <rect x=50 y=0 height=350 width=50 />
+      <rect x=100 y=100 height=250 width=50 />
+      <rect x=150 y=100 height=250 width=50 />
+      <rect x=200 y=250 height=100 width=50 />
+      <rect x=250 y=150 height=200 width=50 />
+      <rect x=300 y=125 height=225 width=50 />
+      <rect x=350 y=200 height=150 width=50 />
+
+    </svg>
+
+
+  </div>
+
+
+  <div>
+    <h2>1b. Line Chart</h2>
+
+    <svg id="Line" width="400" height="400">
+
+      <path d ="M 0 250 L 50 100 L 100 200 L 150 200 L 200 350 L 250 250 L 300 225 L 350 300"/>
+        <!-- style="fill:none;stroke:black;stroke-width:2"  -->
+        
+
+
+    </svg>
+  </div>
+
+  <div>
+    <h2>1b. Line Extra Credit</h2>
+
+    <svg id="line_ec" width="400" height="400">
+      <line x1="0" y1="250" x2="50" y2="100"/>
+      <line x1="50" y1="100" x2="100" y2="200" />
+      <line x1="100" y1="200" x2="150" y2="200"/>
+      <line x1="150" y1="200" x2="200" y2="350"/>
+      <line x1="200" y1="350" x2="250" y2="250"/>
+      <line x1="250" y1="250" x2="300" y2="225"/>
+      <line x1="300" y1="225" x2="350" y2="300"/>
+
+
+    </svg>
+  </div>
+
+  <div>
+    <h2>1c. Pie Chart</h2>
+
+    <svg id="pie_chart" width="400" height="400">
+      <circle cx=200 cy=200 r=200 fill="pink" stroke="black" />
+      <path d="M200,200 L200,0 A200,200 0 0,1 400,200 z" />
+    </svg>
+
+    </svg>
+  </div>
+
+  <br />
+  <hr style="color: white; border-top: 2px dashed gainsboro;" />
+  <br />
+
+  <h1>Part 2: Visualization by JavaScript</h1>
+  <div>
+
+
+
+    <div>
+     
+      
+      <h2>2a. Scatterplot</h2>
+
+
+      <div id="scatterplot"> </div>
+      
+      <script src="scores.js" charset="utf-8"></script>
+      <script src="scatterplot.js" charset="utf-8"></script>
+    </div>
+
+    <div>
+      <h2>2b. Reflection</h2>
+
+      <p>
+        I chose to use Green, blue, and red because they stand out the most apart from each other. 
+        I included yellow as lower than 1, but since that does not show up in the dataset, it did not really 
+        matter. The reason I chose to not use all 3 primary colors and use green instead was because the 
+        yellow did not show up well along the white. I also chose to not use the 'stroke' attribute because it made
+        the colors less distinguishable from one another, even though this would have made the yellow an available color
+        option. While I could've added axes, because I did not, this visualization lacks context. Another reason
+        this visualization is less than ideal is the use of representing the ACT scores. Unless scaled on a
+        larger range, it is very difficult to see difference in points. Another reason this visualization is
+        less effective, is because there is no grid where you can see the actual values at the point, this makes
+        it unreadable and can only really show the trend without giving any real data.
+        
+      </p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

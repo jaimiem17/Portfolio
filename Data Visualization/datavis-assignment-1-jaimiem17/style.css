@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+/* Style for Magenta Bar Chart */
+#magenta_bar_chart rect {
+  fill: magenta;
+  stroke: black;
+  stroke-width: 2;
+}
+
+/* Style for Cyan Bar Chart */
+#cyan_bar_chart rect {
+  fill: cyan;
+  stroke: blue;
+  stroke-width: 2;
+}
+
+#Line path{
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+}
+
+/* Style for Line Extra Credit */
+#line_ec line {
+  stroke: black;
+  stroke-width: 2;
+}
+
+/* Style for Pie Chart Circle */
+#pie_chart circle {
+  fill: pink; /* Circle fill color */
+  stroke: black; /* Circle stroke color */
+  stroke-width: 2; /* Circle stroke width */
+}
+
+/* Style for Pie Chart Slice */
+#pie_chart path {
+  fill: purple; /* Slice fill color */
+  stroke: black; /* Slice stroke color */ */
+  stroke-width: 2; /* Slice stroke width */
+}

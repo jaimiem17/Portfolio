@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 2</title>
+
+
+</head>
+
+<body>
+
+  <h3>CMPS-3360 Assignment 2: Creating Charts with D3 & Data Abstraction</h3>
+  <h4>Jaimie Morris</h4>
+
+  <br />
+  <hr />
+  <br />
+  <br />
+
+
+  <h1>Part 1: Creating Charts with D3</h1>
+  <div id="part1">
+
+    <!--Added the colormapping buttons-->
+    <button onclick="cMap1()">Colormap1</button>
+    <button onclick="cMap2()">Colormap2</button>
+    <button onclick="cMap3()">Colormap3</button>
+
+
+    <!--calling the scripts-->
+    <script src="d3.v7.min.js"></script>
+    <script src="scores.js"></script>
+    <script src="svg.js"></script>
+    </svg>
+  </div>
+
+  <br />
+  <hr style="color: white; border-top: 2px dashed gainsboro;" />
+  <br />
+
+  <h1>Part 2: Data Abstraction</h1>
+  <div id="part2">
+
+    <h4> 1. Data Attributes
+    </h4>
+    <p id="Q1">
+
+    <ol type="a">
+      <li> Ordinal</li>
+      <li> Categorical</li>
+      <li> Quantitative-interval</li>
+      <li> Ordinal</li>
+      <li> Categorical</li>
+      <li> Quantitative-ratio</li>
+      <li> Quantitative-ratio</li>
+      <li> Quantitative-interval</li>
+      <li> Quantitative-ratio</li>
+
+    </ol>
+    </p>
+    <br />
+    <h4>2. Data Abstraction from "The Fallen of WWII"</h4>
+
+    <p id="Q2">
+      I was a little bit unsure of the dataset but at first I'd say that it is an example of a Set because the idea was
+      to just use the item, a person's figure, to represent the amount of casualities of the war without any order or
+      specifity of placement. Later in the video the data started resembling more of a barchart/table like dataset
+      because there were attributes under each set of data and the height/amount of items were still representing the
+      casualities but they were categorized. Each item in the dataset represents a death in WWII. A categorical
+      attribute were the countries that were shown in the video. The quantitative-ratio attribute was the amount of
+      casualities. An ordinal attribute was the years shown on the timeline of the war. Another attribute was the difference
+      in casualties of US soldiers that died from fighting the Nazis vs fighting the Japanese. This is quantitative-ratio.
+      The people that the US fought specifically, the Japanese and Nazis, are also categorical attributes. From the data shown, 
+      I can derive that the amount a Nazi deaths were the Germany deaths plus the data from Hungary, Romania, and Italy
+      because those countaries were labeled as Nazi axis powers as well.
+    </p>
+  </div>
+
+</body>
+
+
+</html>

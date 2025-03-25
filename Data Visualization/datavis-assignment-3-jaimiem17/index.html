@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 3</title>
+        <script src="d3.v7.min.js"></script>
+        <script src="USgap.js"></script>
+        <script src="simplestatistics.js"></script>
+
+    </head>
+    <body>
+
+        <h3>CMPS-3360 Assignment 3: Persuasion and Deception</h3>
+        
+        <br/>
+        <hr/>
+        <br/>
+        <br/>
+        
+        
+        <h1>Part 1: Creating Persuasive & Deceptive Visualizations</h1>
+        <div id="plot1_div">
+          <h4> 1a. Health and Survival Rank </h4>
+          <script src="plot1a.js"></script>
+          
+
+        </div> 
+
+        <div id="plot2_div">
+          <h4> 1b. Health and Survival Index </h4>
+          <script src="plot1b.js"></script>
+            
+        </div> 
+
+        <div id="plot3_div">
+          <h4> 1c. Black-Hat Visualization </h4>
+            <script src="plot1c.js"></script>
+        </div> 
+
+
+        <br/>
+        <hr style="color: white; border-top: 2px dashed gainsboro;"/>
+        <br/>
+
+        <h1>Part 2: Design Rationale</h1>
+        <div id="part2">
+
+            <h4> 1a. Design Rationale</h4>
+            <p id = "1a">
+                The first visualization is a line chart that shows the health and survival rank of the US population but it is deceiving because it looks as though the line is decreasing, but it is actually increasing. The mark on this visualization is the line. The attributes are the years, which are ordinal because they are ordered. The values on the y-axis are also ordinal. The visual channel is the color of the line. In order to make this visualization look like it was decreasing, I changed the y-axis to be start from the max and go up to the min so that the y-axis would be increasing making the line look like it was decreasing.
+            
+            </p>
+            <br/>
+            <h4> 1b. Design Rationale</h4>
+            <p id = "1b">
+              The second visualization is a line chart that shows the health and survival index of the US population but it is deceiving because it looks as though the line is staying the same, but it is actually fluctuating. The mark on this visualization is the line. The attributes are the years, which are ordinal because they are ordered. The values on the y-axis are also ordinal. The visual channel is the color of the line. In order to make this visualization look like it was staying the same, I made the y-axis start from 0 so that it would have a bigger range. This scale is manipulated which makes line look like it is staying the same 
+            
+            </p>
+            <br/>
+            <h4> 1c. Design Rationale</h4>
+            <p id = "1c">
+              The third visualization is a bar chart that shows the Political Empowerement index of the US population but it is deceiving because it looks as though the Political Empowerement index is increasing but really I used selective sampling to filter out the data that was fluctuating. The mark on this visualization is the bars. The channel is the length and position with two ordinal attributes: the years and the y-axis values.
+
+            
+            </p>
+            
+        </div>
+
+    </body>
+
+
+</html>
